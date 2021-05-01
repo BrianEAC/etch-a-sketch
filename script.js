@@ -19,4 +19,15 @@ cells.forEach((item) => {
     })
 })
 
+const button = document.querySelector('#clear');
+
+button.addEventListener('click', () =>{
+  cells.forEach((item) => {
+      if (item.style.backgroundColor = 'black' ) {
+        item.style.backgroundColor = '#DECAB0'; 
+      }
+  })
+    
+})
+
 
